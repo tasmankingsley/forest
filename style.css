@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  background-color: #eee;
+}
+
+
+body {
+  margin: 0;
+}
+
+#app {
+
+}
+
+.container {
+  /* overflow-y: scroll;  */
+  /* height: 100vh; */
+}
+
+.scroll-container {
+  display: grid;
+  grid-template-rows: 100vh 20vh;
+  height: 2000px; 
+  width: 100vw;
+  position: relative;
+  background-color: #fff;
+  align-items: center;
+}
+
+img {
+  justify-self: center;
+  max-width: 70%;
+}
+
+.section {
+  height: 0vh; 
+  position: sticky; 
+  /* top: 0; */
+
+  background-image: url('./images/milk-tea.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.section2 {
+  height: 100vh;
+  background-color: #fff;
+  position: sticky;
+}
+
+.text {
+  display: grid;
+  place-items: center;
+  /* position: sticky; */
+  /* height: 100vh; */
+  top: 0;
+  color: #fff;
+  font-size: 4rem;
+}
+
+
+
