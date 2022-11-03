@@ -6,6 +6,6 @@ console.log(text)
 window.addEventListener('scroll', () => {
   console.log(window.scrollY);
   text.innerHTML = window.scrollY;
-  text.style.height = `${Math.min(10 + window.scrollY/5, 100)}vh`
+  // text.style.height = `${Math.min(10 + window.scrollY/5, 100)}vh`
 });
 

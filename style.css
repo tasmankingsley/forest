@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Knewave&family=Nothing+You+Could+Do&family=Silkscreen&display=swap');
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -21,12 +23,26 @@ body {
 
 .scroll-container {
   display: grid;
-  grid-template-rows: 100vh 20vh;
-  height: 2000px; 
+  grid-template-rows: 100vh 100vh;
+  height: calc(100vh * 3); 
   width: 100vw;
   position: relative;
-  background-color: #fff;
+  background-color: #eee;
   align-items: center;
+}
+
+.title-screen {
+  display: grid;
+  background-image: url('./images/milk-tea.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 100vh;
+  font-size: 200px;
+  place-items: center;
+  font-family: 'Knewave', cursive;
 }
 
 img {
@@ -39,7 +55,7 @@ img {
   position: sticky; 
   /* top: 0; */
 
-  background-image: url('./images/milk-tea.jpg');
+  background: url('./images/milk-tea.jpg');
   background-size: cover;
   background-position: center;
   
@@ -47,7 +63,7 @@ img {
 
 .section2 {
   height: 100vh;
-  background-color: #fff;
+  background-color: #eee;
   position: sticky;
 }
 
@@ -55,9 +71,9 @@ img {
   display: grid;
   place-items: center;
   /* position: sticky; */
-  /* height: 100vh; */
+  height: 100vh;
   top: 0;
-  color: #fff;
+  color: #eee;
   font-size: 4rem;
 }
 
