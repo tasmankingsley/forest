@@ -24,7 +24,7 @@ body {
 .scroll-container {
   display: grid;
   grid-template-rows: 100vh 100vh;
-  height: calc(100vh * 3); 
+  height: calc(100vh * 4); 
   width: 100vw;
   position: relative;
   background-color: #eee;
