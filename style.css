@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Knewave&family=Nothing+You+Could+Do&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -42,7 +42,7 @@ body {
   height: 100vh;
   font-size: 200px;
   place-items: center;
-  font-family: 'Knewave', cursive;
+  font-family: 'Mynerve', cursive;
 }
 
 img {
